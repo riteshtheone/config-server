@@ -1,7 +1,3 @@
-spring:
-    application:
-        name: config
-
 #Eureka discovery client config :--------------------------------------------------------------------------------
 eureka:
     instance:
