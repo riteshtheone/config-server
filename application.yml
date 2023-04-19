@@ -1,0 +1,9 @@
+#Eureka discovery client config :--------------------------------------------------------------------------------
+eureka:
+    instance:
+        prefer-ip-address: true
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        server-url:
+            defaultZone: http://localhost:8761/eureka
